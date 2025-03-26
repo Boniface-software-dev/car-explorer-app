@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Explorer</title>
-    <img id=head src="https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/rolls_royce_phantom_top_10.jpg" alt="super luxury car">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Car Explorer</h1>
+        <button id="theme-toggle">Dark Mode</button>
         <div id="car-list"></div>
+    </header>
+    <main>
+        //Search section//       
+        <section id="search-section">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search by make/model...">
+                <button type="submit">Search</button>
+              </form>
+            </section>
         <script src="script.js"></script>
 </body>
 </html>

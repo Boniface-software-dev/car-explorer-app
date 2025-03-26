@@ -1,0 +1,20 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Ford Mustang",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9DrkOxWsf-sgR8R5BVKDhxiKXaE-6Vb1kMw&s",
+      "likes": 10,
+      "type": "Sports",
+      "brand": "Ford"
+    },
+    {
+      "id": 2,
+      "name": "Tesla Model S",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5OhpnlVEIR34RH08FaFjGkSr_FD4rMFs2ng&s",
+      "likes": 15,
+      "type": "Electric",
+      "brand": "Tesla"
+    }
+  ]
+}
