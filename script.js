@@ -39,3 +39,9 @@ document.getElementById('search-form').addEventListener('submit', async (e) => {
   const cars = await fetchCars(query);
   renderCars(cars);
 });
+
+document.getElementById('theme-toggle').addEventListener('click', () => { // 3. Click
+  document.body.classList.toggle('dark-mode');
+  const button = document.getElementById('theme-toggle');
+  button.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+});
