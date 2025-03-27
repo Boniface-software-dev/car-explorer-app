@@ -33,4 +33,9 @@ document.addEventListener('DOMContentLoaded', async () => { // 1. DOMContentLoad
   renderCars(cars);
 });
 
-
+document.getElementById('search-form').addEventListener('submit', async (e) => { // 2. Submit
+  e.preventDefault();
+  const query = document.getElementById('search-input').value;
+  const cars = await fetchCars(query);
+  renderCars(cars);
+});
