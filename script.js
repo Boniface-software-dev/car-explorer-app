@@ -26,4 +26,11 @@ async function fetchCars() {
       console.error("Fetch error:", error);
       return [];
     }
-  } 
+  }
+// Event Listeners (3 Distinct Types)
+document.addEventListener('DOMContentLoaded', async () => { // 1. DOMContentLoaded
+  const cars = await fetchCars();
+  renderCars(cars);
+});
+
+
