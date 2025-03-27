@@ -2,19 +2,53 @@
   "cars": [
     {
       "id": 1,
-      "name": "Ford Mustang",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9DrkOxWsf-sgR8R5BVKDhxiKXaE-6Vb1kMw&s",
-      "likes": 10,
-      "type": "Sports",
-      "brand": "Ford"
+      "make": "Ferrari",
+      "model": "F8 Tributo",
+      "year": 2023,
+      "horsepower": 710,
+      "top_speed": "211 mph",
+      "price": "$275,000",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ferrari_F8_Tributo_%2848267153182%29.jpg/1200px-Ferrari_F8_Tributo_%2848267153182%29.jpg"
     },
     {
       "id": 2,
-      "name": "Tesla Model S",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5OhpnlVEIR34RH08FaFjGkSr_FD4rMFs2ng&s",
-      "likes": 15,
-      "type": "Electric",
-      "brand": "Tesla"
+      "make": "Porsche",
+      "model": "911 GT3",
+      "year": 2023,
+      "horsepower": 502,
+      "top_speed": "197 mph",
+      "price": "$185,000",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Porsche_911_GT3_%289920241787%29.jpg/1200px-Porsche_911_GT3_%289920241787%29.jpg"
+    },
+    {
+      "id": 3,
+      "make": "Tesla",
+      "model": "Model S Plaid",
+      "year": 2023,
+      "horsepower": 1020,
+      "top_speed": "200 mph",
+      "price": "$135,000",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2019_Tesla_Model_S_Performance_AWD_Front.jpg/1200px-2019_Tesla_Model_S_Performance_AWD_Front.jpg"
+    },
+    {
+      "id": 4,
+      "make": "Lamborghini",
+      "model": "Aventador SVJ",
+      "year": 2023,
+      "horsepower": 759,
+      "top_speed": "217 mph",
+      "price": "$517,000",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Lamborghini_Aventador_SVJ_Roadster_%2848267155912%29.jpg/1200px-Lamborghini_Aventador_SVJ_Roadster_%2848267155912%29.jpg"
+    },
+    {
+      "id": 5,
+      "make": "McLaren",
+      "model": "720S",
+      "year": 2023,
+      "horsepower": 710,
+      "top_speed": "212 mph",
+      "price": "$315,000",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/McLaren_720S_GT3_%2848710516217%29.jpg/1200px-McLaren_720S_GT3_%2848710516217%29.jpg"
     }
   ]
 }
