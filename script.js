@@ -3,7 +3,7 @@ async function fetchCars() {
     const response = await fetch('http://localhost:3000/cars');
     return await response.json();
   }
-  // DRY helper function
+  // (Don't Repeat Yourself) DRY helper function
   function createCarCard(car) {
     const card = document.createElement('div');
     card.className = 'car-card';
@@ -27,8 +27,8 @@ async function fetchCars() {
       return [];
     }
   }
-// Event Listeners (3 Distinct Types)
-document.addEventListener('DOMContentLoaded', async () => { // 1. DOMContentLoaded
+// Event Listeners (Load, Submit, Click)
+document.addEventListener('DOMContentLoaded', async () => { // 1. Load
   const cars = await fetchCars();
   renderCars(cars);
 });
@@ -45,17 +45,17 @@ document.getElementById('theme-toggle').addEventListener('click', () => { // 3. 
   const button = document.getElementById('theme-toggle');
   button.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
 });
-//Array Iteration (filter + map)
+//Array Iteration (Filter out cars without make and model)
 function renderCars(cars) {
   const grid = document.getElementById('cars-grid');
   grid.innerHTML = '';
 
   cars
-    .filter(car => car.make && car.model) // Filter invalid entries
-    .map(car => createCarCard(car))      // Map to DOM elements
+    .filter(car => car.make && car.model)
+    .map(car => createCarCard(car))      
     .forEach(card => grid.appendChild(card));
 }
-//Event Delegation
+//Dynamic like button click handling
 document.addEventListener('click', (e) => {
   if (e.target.classList.contains('like-btn')) {
     e.target.classList.toggle('liked');
