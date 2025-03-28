@@ -55,3 +55,9 @@ function renderCars(cars) {
     .map(car => createCarCard(car))      // Map to DOM elements
     .forEach(card => grid.appendChild(card));
 }
+//Event Delegation
+document.addEventListener('click', (e) => {
+  if (e.target.classList.contains('like-btn')) {
+    e.target.classList.toggle('liked');
+  }
+});
