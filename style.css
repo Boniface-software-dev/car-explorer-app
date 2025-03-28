@@ -43,4 +43,7 @@ body {
     transition: transform 0.2s;
   }
 
-  
+  /* Hover Effect for Interactive Feel */
+.car-card:hover {
+    transform: translateY(-5px);  /* Lift card on hover */
+  }
