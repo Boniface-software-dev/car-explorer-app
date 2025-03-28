@@ -1,12 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: whitesmoke
-   
-
-
-}
-#car-list img {
-    width: 200px;
-    cursor: pointer;
-}
+/* === Global Variable for the theme === */
+:root {
+    --bg-color: #ffffff;       /* Default background color */
+    --text-color: #333333;     /* Default text color */
+    --primary-color: #2c3e50;  /* Primary accent color (unused in current setup) */
+  }
+  
