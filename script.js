@@ -45,3 +45,13 @@ document.getElementById('theme-toggle').addEventListener('click', () => { // 3. 
   const button = document.getElementById('theme-toggle');
   button.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
 });
+//Array Iteration (filter + map)
+function renderCars(cars) {
+  const grid = document.getElementById('cars-grid');
+  grid.innerHTML = '';
+
+  cars
+    .filter(car => car.make && car.model) // Filter invalid entries
+    .map(car => createCarCard(car))      // Map to DOM elements
+    .forEach(card => grid.appendChild(card));
+}
