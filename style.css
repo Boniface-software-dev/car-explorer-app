@@ -45,5 +45,10 @@ body {
 
   /* Hover Effect for Interactive Feel */
 .car-card:hover {
-    transform: translateY(-5px);  /* Lift card on hover */
+    transform: translateY(-5px);
+ }
+
+ /* === Like Button Feedback === */
+.like-btn.liked {
+    color: #e74c3c;  /* Red color for "liked" state */
   }
