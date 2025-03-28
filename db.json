@@ -2,53 +2,283 @@
   "cars": [
     {
       "id": 1,
-      "make": "Ferrari",
-      "model": "F8 Tributo",
+      "make": "Toyota",
+        "model": "Camry XSE",
       "year": 2023,
-      "horsepower": 710,
-      "top_speed": "211 mph",
-      "price": "$275,000",
-      "image": "data:image/jpeg;base64,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"
+      "price": "$32,490",
+      "performance": {
+        "fuel_type": "Hybrid",
+        "engine": "2.5L 4-cylinder + Electric Motor",
+        "horsepower": "208 HP",
+        "torque": "163 lb-ft",
+        "transmission": "eCVT",
+        "drive_type": "FWD",
+        "mileage": "21.5 KM/L"
+      },
+      "design": {
+        "body_type": "Sedan",
+        "seating_capacity": 5,
+        "colors": ["Midnight Black", "Supersonic Red", "Wind Chill Pearl"],
+        "safety_rating": "5-Star (NHTSA)",
+        "features": [
+          "Panoramic Sunroof",
+          "10-Inch Head-Up Display",
+          "Bose Premium Audio",
+          "Adaptive Cruise Control"
+        ]
+      },
+      "dealer": {
+        "name": "Tokyo Motors",
+        "location": "Osaka, Japan",
+        "contact": "+81 6-1234-5678",
+        "website": "https://tokyo-motors.jp"
+      },
+      "image": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/51209/2023-Toyota-Camry-front_51209_032_2400x1800_1J9.png"
     },
     {
       "id": 2,
-      "make": "Porsche",
-      "model": "911 GT3",
-      "year": 2023,
-      "horsepower": 502,
-      "top_speed": "197 mph",
-      "price": "$185,000",
-      "image": "https://hips.hearstapps.com/hmg-prod/images/2024-porsche-911-gt3-rs-138-64ecda037334a.jpg?crop=0.628xw:0.529xh;0.176xw,0.281xh&resize=2048:*"
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "year": 2024,
+      "price": "$48,995",
+      "performance": {
+        "fuel_type": "Electric",
+        "engine": "Electric Motor",
+        "horsepower": "346 HP",
+        "torque": "428 lb-ft",
+        "transmission": "Automatic",
+        "drive_type": "AWD",
+        "mileage": "480 KM/Full Charge"
+      },
+      "design": {
+        "body_type": "SUV",
+        "seating_capacity": 5,
+        "colors": ["Cyber Orange", "Grabber Blue", "Dark Matter Gray"],
+        "safety_rating": "5-Star (Euro NCAP)",
+        "features": [
+          "15.5-Inch Touchscreen",
+          "Bang & Olufsen Sound System",
+          "Ford Co-Pilot360",
+          "Hands-Free Liftgate"
+        ]
+      },
+      "dealer": {
+        "name": "Ford Electric Hub",
+        "location": "Detroit, MI, USA",
+        "contact": "+1 800-392-3673",
+        "website": "https://ford.com/electric"
+      },
+      "image": "https://www.topgear.com/sites/default/files/2024/05/1-Ford-Mustang-Mach-E-US-review-2024.jpg"
     },
     {
       "id": 3,
       "make": "Tesla",
       "model": "Model S Plaid",
-      "year": 2023,
-      "horsepower": 1020,
-      "top_speed": "200 mph",
-      "price": "$135,000",
-      "image": "https://hips.hearstapps.com/hmg-prod/images/2023-tesla-model-s-exterior-654d3a5e814cc.png?crop=0.506xw:0.395xh;0.253xw,0.295xh&resize=1200:*"
+      "year": 2024,
+      "price": "$94,990",
+      "performance": {
+        "fuel_type": "Electric",
+        "engine": "Tri-Motor Setup",
+        "horsepower": "1,020 HP",
+        "torque": "1,050 lb-ft",
+        "transmission": "Single-Speed",
+        "drive_type": "AWD",
+        "mileage": "652 KM/Full Charge"
+      },
+      "design": {
+        "body_type": "Sedan",
+        "seating_capacity": 5,
+        "colors": ["Deep Crimson", "Glacier White", "Stealth Gray"],
+        "safety_rating": "5-Star (IIHS)",
+        "features": [
+          "17-Inch Cinematic Display",
+          "Yoke Steering",
+          "22-Speaker Audio",
+          "Autopilot"
+        ]
+      },
+      "dealer": {
+        "name": "Tesla Showroom",
+        "location": "Palo Alto, CA, USA",
+        "contact": "+1 888-518-3752",
+        "website": "https://tesla.com"
+      },
+      "image": "https://www.motortrend.com/uploads/2024/01/1-2024-Tesla-Model-S-front-view.jpg"
     },
     {
       "id": 4,
-      "make": "Lamborghini",
-      "model": "Aventador SVJ",
-      "year": 2023,
-      "horsepower": 759,
-      "top_speed": "217 mph",
-      "price": "$517,000",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/2023_Lamborghini_Aventador_Ultimae.jpg/1200px-2023_Lamborghini_Aventador_Ultimae.jpg"
+      "make": "Rolls-Royce",
+      "model": "Phantom",
+      "year": 2024,
+      "price": "$460,000",
+      "performance": {
+        "fuel_type": "Petrol",
+        "engine": "6.75L V12",
+        "horsepower": "563 HP",
+        "torque": "664 lb-ft",
+        "transmission": "8-Speed Automatic",
+        "drive_type": "RWD",
+        "mileage": "8.5 KM/L"
+      },
+      "design": {
+        "body_type": "Sedan",
+        "seating_capacity": 5,
+        "colors": ["Midnight Sapphire", "Arctic White", "Tungsten"],
+        "safety_rating": "5-Star (Euro NCAP)",
+        "features": [
+          "Starlight Headliner",
+          "Lambswool Floor Mats",
+          "Bespoke Audio System",
+          "Coach Doors"
+        ]
+      },
+      "dealer": {
+        "name": "Rolls-Royce Boutique",
+        "location": "London, UK",
+        "contact": "+44 20 7930 7474",
+        "website": "https://www.rolls-roycemotorcars.com"
+      },
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2024-rolls-royce-phantom-102-64bad70ba7661.jpg?crop=0.637xw:0.644xh;0.248xw,0.236xh&resize=2048:*"
     },
     {
       "id": 5,
-      "make": "McLaren",
-      "model": "720S",
-      "year": 2023,
-      "horsepower": 710,
-      "top_speed": "212 mph",
-      "price": "$315,000",
-      "image": "https://mclaren.scene7.com/is/image/mclaren/720S-Coupe_hero:crop-16x9?wid=1920&hei=1080"
+      "make": "Bentley",
+      "model": "Flying Spur",
+      "year": 2024,
+      "price": "$214,600",
+      "performance": {
+        "fuel_type": "Petrol",
+        "engine": "6.0L W12",
+        "horsepower": "626 HP",
+        "torque": "664 lb-ft",
+        "transmission": "8-Speed DCT",
+        "drive_type": "AWD",
+        "mileage": "9.2 KM/L"
+      },
+      "design": {
+        "body_type": "Sedan",
+        "seating_capacity": 5,
+        "colors": ["Onyx", "Dragon Red II", "Silver Tempest"],
+        "safety_rating": "5-Star (IIHS)",
+        "features": [
+          "Rotating Display Dashboard",
+          "Naim for Bentley Audio",
+          "Air Ionizer",
+          "Mulliner Driving Spec"
+        ]
+      },
+      "dealer": {
+        "name": "Bentley Crewe",
+        "location": "Cheshire, UK",
+        "contact": "+44 1270 653653",
+        "website": "https://www.bentleymotors.com"
+      },
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2024-bentley-flying-spur-644bddfb89ff4.jpg?crop=0.595xw:0.457xh;0.155xw,0.343xh&resize=2048:*"
+    },
+    {
+      "id": 6,
+      "make": "Mercedes-Maybach",
+      "model": "S 680",
+      "year": 2024,
+      "price": "$200,000",
+      "performance": {
+        "fuel_type": "Petrol",
+        "engine": "6.0L V12",
+        "horsepower": "621 HP",
+        "torque": "738 lb-ft",
+        "transmission": "9-Speed Automatic",
+        "drive_type": "AWD",
+        "mileage": "8.5 KM/L"
+      },
+      "design": {
+        "body_type": "Sedan",
+        "seating_capacity": 5,
+        "colors": ["Obsidian Black", "Iridium Silver", "Designo Diamond White"],
+        "safety_rating": "5-Star (ANCAP)",
+        "features": [
+          "Executive Rear Seats",
+          "Magic Sky Control",
+          "Burmester 3D Sound",
+          "Energizing Comfort"
+        ]
+      },
+      "dealer": {
+        "name": "Mercedes-Maybach Manufaktur",
+        "location": "Sindelfingen, Germany",
+        "contact": "+49 711 17-0",
+        "website": "https://www.mercedes-maybach.com"
+      },
+      "image": "https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/driveau/upload/cms/uploads/hskqiiutrruqdwegq0sn"
+    },
+    {
+      "id": 7,
+      "make": "BMW",
+      "model": "7 Series",
+      "year": 2024,
+      "price": "$86,800",
+      "performance": {
+        "fuel_type": "Petrol",
+        "engine": "4.4L V8",
+        "horsepower": "523 HP",
+        "torque": "553 lb-ft",
+        "transmission": "8-Speed Automatic",
+        "drive_type": "AWD",
+        "mileage": "9.8 KM/L"
+      },
+      "design": {
+        "body_type": "Sedan",
+        "seating_capacity": 5,
+        "colors": ["Alpine White", "Black Sapphire", "Bernina Gray"],
+        "safety_rating": "5-Star (Euro NCAP)",
+        "features": [
+          "Panoramic Sky Lounge",
+          "Bowers & Wilkins Diamond Audio",
+          "Gesture Control",
+          "Remote Control Parking"
+        ]
+      },
+      "dealer": {
+        "name": "BMW Welt",
+        "location": "Munich, Germany",
+        "contact": "+49 89 125016001",
+        "website": "https://www.bmw.com"
+      },
+      "image": "https://i.gaw.to/vehicles/photos/40/33/403354-2024-bmw-7-series.jpg?1024x640"
+    },
+    {
+      "id": 8,
+      "make": "Aston Martin",
+      "model": "Rapide AMR",
+      "year": 2024,
+      "price": "$210,000",
+      "performance": {
+        "fuel_type": "Petrol",
+        "engine": "5.2L V12",
+        "horsepower": "580 HP",
+        "torque": "465 lb-ft",
+        "transmission": "8-Speed Automatic",
+        "drive_type": "RWD",
+        "mileage": "7.8 KM/L"
+      },
+      "design": {
+        "body_type": "Sports Sedan",
+        "seating_capacity": 4,
+        "colors": ["AMR Green", "Quantum Silver", "Satin Titanium"],
+        "safety_rating": "5-Star (ANCAP)",
+        "features": [
+          "Carbon Fiber Body Panels",
+          "AMR Sport Seats",
+          "Track Mode Suspension",
+          "Ceramic Brakes"
+        ]
+      },
+      "dealer": {
+        "name": "Aston Martin St. Athan",
+        "location": "Wales, UK",
+        "contact": "+44 1446 750500",
+        "website": "https://www.astonmartin.com"
+      },
+      "image": "https://imgd.aeplcdn.com/1200x900/cw/ec/34831/Aston-Martin-Rapide-Exterior-129229.jpg?wm=0"
     }
   ]
 }
