@@ -20,3 +20,10 @@ body {
     margin: 0;
     padding: 20px;  
   }
+
+  /* === Search Form Layout === */
+#search-form {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;  
+  }
